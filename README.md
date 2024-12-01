@@ -27,3 +27,9 @@ https://sub.qichiyu.com/sub  VPS 域名反代 地址
 
 http://192.168.10.5:25500/sub 局域网其他设备地址
 
+# DDNS-GO
+
+```
+docker run -d --name ddns-go --restart=always --net=host -v /opt/ddns-go:/root jeessy/ddns-go
+```
+
